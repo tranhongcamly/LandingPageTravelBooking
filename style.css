@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+}
+:root{
+    --f-size-sm: 15px;
+    --f-size-md: 24px;
+    --f-size-lg: 30px;
+}
+.logo-text a,
+.search i{
+    font-size: var(--f-size-md);
+    padding: 8px 16px;
+    color: grey;
+}
+.logo-text a:hover,
+.search i:hover{
+    color: white!important;
+    background-color: red;
+    cursor: pointer;
+}
+.booking{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hero{
+    position: relative;
+}
+.active{ background-color: red;}
+#hero .booking-item{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#hero .booking .hotelBooking,
+#hero .booking .rentalBooking{
+    display: none;
+}
+#hero .booking .booking-item li:hover{
+    background-color: gray;
+}
+#hero .booking .booking-body{
+    background-color: white;
+}
+#hero ul li{
+    width: fit-content;
+}
+#hero .booking-item li button{
+    background: transparent;
+    color: white;
+    border: none;
+}
+#hero .booking-item li button i{
+    margin-right: 16px;
+    
+}
+#offer .row .col-6 img{
+    width: 100%;
+}
+/* fff */
+#offer .row img{
+    width: 100%;
+    position: relative;
+}
+#offer .row span{
+    position: absolute;
+    bottom: 10px;
+    left: 1.5rem;
+    color: white;
+}
+/* #explore .row .col-6 img{
+    width: 100%;
+} */
+#explore .row .col-6 .descript{
+    font-size: 15px;
+}
+#explore .row .col-6 .descript h3{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+#contact .contact-info .info i{
+    width: 30px;
+}
+
+#footer .icon i{
+    font-size: 21px;
+    cursor: pointer;
+}
+#footer .icon i:hover{
+    opacity: 0.7;
+}
+#footer p a:hover{
+    color: chartreuse !important;
+}
+
+
+
+
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4407335b4.js"></script>
+    <title>LandingPage2</title>
+</head>
+<body>
+    <nav class="navbar-nav">
+        <div class="row justify-content-between">
+            <div class="col-3 logo-text">
+                <a class="navbar-brand text-danger" href="#">
+                    <i class="fa-solid fa-location-dot"></i> Logo
+                </a>
+            </div>
+            <div class="col-3 icon search text-end">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <div id="hero" class=" d-none d-sm-block">
+        <img src="/assects/london2.jpg" alt="hero" class=" img-fluid">
+        <div class="booking border border-dark">
+            <ul class="booking-item row">
+                <li class="col-4 p-2 p-md-3 active flightBtn"><button><i class="fa-solid fa-plane-up"></i> Flight</button></li>
+                <li class="col-4 p-2 p-md-3 hotelBtn"><button><i class="fa-solid fa-bed"></i> Hotel</button></li>
+                <li class="col-4 p-2 p-md-3 rentalBtn"><button><i class="fa-solid fa-car"></i> Rental</button></li>
+            </ul>
+            <div class="booking-body bg-light p-3 flightBooking">
+                <h3>Travel the world with us</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="">From</label>
+                        <br><input class="form-control" type="text" name="" id="" placeholder="Departing from">
+                    </div>
+                    <div class="col-6">
+                        <label for="">To</label>
+                        <br><input class="form-control" type="text" name="" id="" placeholder="Arriving at">
+                    </div>
+                </div>
+                <button class="btn btn-secondary my-3">Search and find dates</button>
+            </div>
+            <div class="booking-body bg-light p-3 hotelBooking">
+                <h3>Find the best hotels</h3>
+                <p>Book a hotel with us and get the best fares and promotions.</p>
+                <p>We know hotels - we know comfort.</p>
+                <button class="btn btn-secondary">Search Hotels</button>
+            </div>
+            <div class="booking-body bg-light p-3 rentalBooking">
+                <h3>Best car rental in the world!</h3>
+                <span class=" bg-danger p-1">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs
+                <input type="text" name="" id="" placeholder="Pick-up point" class="form-control my-3">
+                <button class="btn btn-secondary">Search Availability</button>
+            </div>
+        </div>
+    </div>
+    <!-- offer -->
+    <div id="offer" class="container-fluid mt-4">
+        <h3>Good Offers Right Now</h3>
+        <p>Up to <b>50%</b> discount.</p>
+        <div class="row">
+            <div class="col-12 col-sm-6 position-relative">
+                <img src="/assects/cinqueterre.jpg" alt="" class=" img-fluid mt-4">
+                <span>Cinque Terre</span>
+            </div>
+            <div class="col-12 col-sm-6 d-flex flex-column justify-content-between">
+                <div class="row">
+                    <div class="col-12 col-sm-6 position-relative"><img src="/assects/newyork2.jpg" alt="" class="img-fluid mt-4">
+                    <span>New York</span></div>
+                    <div class="col-12 col-sm-6 position-relative"><img src="/assects/sanfran.jpg" alt="" class=" img-fluid mt-4">
+                    <span>San Francisco</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 position-relative"><img src="/assects/pisa.jpg" alt="" class=" img-fluid mt-4">
+                    <span>Pisa</span></div>
+                    <div class="col-12 col-sm-6 position-relative"><img src="/assects/paris.jpg" alt="" class=" img-fluid mt-4">
+                    <span>Paris</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- explore -->
+    <div id="explore" class="container-fluid mt-4">
+        <h3>Explore Nature</h3>
+        <p>Travel with us and see nature at its finest.</p>
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="img">
+                    <img src="/assects/ocean2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="descript">
+                    <h3>West Coast, Norway</h3>
+                    <p class="text-muted">Roundtrip from $79</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="btn btn-secondary mb-3">Buy Tickets</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="img">
+                    <img src="/assects/mountains2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="descript">
+                    <h3>Mountains, Austria</h3>
+                    <p class="text-muted">One-way from $39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="btn btn-secondary mb-3">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter -->
+    <div id="newsletter" class="container-fluid my-3">
+        <div class="wrapper bg-dark">
+            <div class="row p-3">
+                <h2 class="text-white">Get the best offers first!</h2>
+                <p class="text-white">Join our newsletter.</p>
+                <form action="">
+                    <label class="text-white" for="">E-mail</label>
+                    <input class="form-control my-3" type="email" required placeholder="Your Email address">
+                    <button class="btn btn-danger mb-3">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact" class="container-fluid mt-3">
+        <h2>Contact</h2>
+        <p>Let us book your next trip!</p>
+        <div class="contact-info">
+            <div class="info"><i class="fa-solid fa-location-dot"></i><span>Chicago, US</span></div>
+            <div class="info"><i class="fa-solid fa-phone"></i><span>Phone: +00 151515</span></div>
+            <div class="info"><i class="fa-solid fa-envelope"></i><span>Email: mail@mail.com</span></div>
+        </div>
+        <form action="">
+            <input class="form-control my-3" type="text" placeholder="Name" required>
+            <input class="form-control my-3" type="email" placeholder="Email" required>
+            <input class="form-control my-3" type="text" placeholder="Message" required>
+            <button class="btn btn-dark mb-3">SEND MESSAGE</button>
+        </form>
+    </div>
+    <!-- footer -->
+    <div id="footer" class="text-center">
+        <h5 class=" text-secondary">Find Us On</h5>
+        <div class="icon">
+            <i class="fa-brands fa-square-facebook my-4"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p class=" text-secondary">Powered by <a class=" text-secondary" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
